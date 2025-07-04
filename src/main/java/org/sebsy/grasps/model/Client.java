@@ -80,4 +80,9 @@ public class Client {
     public void setReservations(List<Reservation> reservations) {
         this.reservations = reservations;
     }
+
+    public void ajouterReservation(Reservation reservation) {
+        this.reservations.add(reservation);
+    }
+
 }
